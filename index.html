@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>OH MY GARE PAKE PAKE JANO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>OH MY GARE PAKE PAKE JANO</h1>
+        <p>Bienvenido al mundo de Bob Esponja </p>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Sobre Nosotros</a>
+        <a href="#">Galería</a>
+        <a href="#">Contacto</a>
+    </nav>
+<section class="video-principal">
+    <video id="miVideo" loop>
+        <source src="doncangrejo.mp4" type="video/mp4">
+        Tu navegador no soporta videos.
+    </video>
+
+    <button id="btnPlay">▶ Reproducir video</button>
+</section>
+
+<script>
+    const video = document.getElementById("miVideo");
+    const boton = document.getElementById("btnPlay");
+
+    boton.addEventListener("click", () => {
+        video.muted = false;
+        video.play();
+        boton.style.display = "none";
+    });
+
+    // Si el usuario pausa el video, vuelve a mostrar el botón
+    video.addEventListener("pause", () => {
+        boton.style.display = "inline-block";
+    });
+</script>
+
+
+</section>
+</body>
+</html>
+<section class="imagen-principal">
+    <img src="img/bobesponja.jpg" alt="OH MY GARE PAKE PAKE JANO">
+</section>
+
+    <main>
+        <section>
+            <h2>¿Quiénes somos?</h2>
+            <p>
+                Somos OH MY GARE PAKE PAKE JANO, una página creada para molestar a Alejandro nuñes 
+                .
+            </p>
+        </section>
+
+        <section>
+            <h2>Nuestro objetivo</h2>
+            <p>
+                Reirnos de bob esponja homosexual.
+            </p>
+        </section>
+    </main>
+</html>
+<section class="imagen-principal">
+    <img src="img/bobesponja.jpg" alt="OH MY GARE PAKE PAKE JANO">
+</section>
+
+    <footer>
+        <p>© 2025 OH MY GARE PAKE PAKE JANO - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
+<section class="imagen-principal">
+    <img src="img/bobesponja.jpg" alt="OH MY GARE PAKE PAKE JANO">
+</section>
